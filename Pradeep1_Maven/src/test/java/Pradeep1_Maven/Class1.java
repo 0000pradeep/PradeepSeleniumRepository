@@ -15,7 +15,7 @@ public class Class1 {
 		driver.navigate().to("http://www.google.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		System.out.println("test completed");
+		System.out.println("test completed and tested");
 		driver.close();
 		
   }
